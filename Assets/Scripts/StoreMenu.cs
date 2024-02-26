@@ -12,7 +12,7 @@ public class StoreMenu : MonoBehaviour
     public TextMeshProUGUI txtPurchaseStatus;
     public GameObject txtPurchaseStatusObject;
 
-    private readonly string apiURL = "https://surely-famous-husky.ngrok-free.app/api/ingame-purchase";
+    private readonly string apiURL = "https://localhost:3000/api/ingame-purchase";
 
     [System.Serializable]
     public class MemberData
